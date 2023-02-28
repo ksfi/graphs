@@ -16,3 +16,4 @@ A graph is connected if it cannot be expressed as the union of two graphs, and d
 
 <img width="574" alt="Capture d’écran 2023-02-28 à 13 50 11" src="https://user-images.githubusercontent.com/126407732/221858836-0c375d58-e4ba-4b73-9f7f-f9d967b8eca3.png">
 
+For example the $G_1 \cup G_2$ graph above is a disconnected graph since it's the union of $G_1$ and $G_2$ that are two connected graphs.
