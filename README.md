@@ -30,7 +30,7 @@ For example the $G_1 \cup G_2$ graph above is a disconnected graph since it's th
 A connected graph $G$ is Eulerian if and ony if the degree of each vertex of $G$ is even.
 
 ### • Hamiltonian
-If $G$ is a simple graph with $n \geq 3$ vertices and if $$\text{deg}(v) + \text{deg}(w) \geq n$$ for each pair $\\{v,w\\}$ of non-adjacent vertices, then $G$ is Hamiltonian.
+If $G$ is a simple graph with $n \geq 3$ vertices and if $$\text{deg}(v) + \text{deg}(w) \geq n$$ for each pair $\\{v,w\\}$ of non-adjacent vertices, then $G$ is Hamiltonian. With the degree of a vertex being the number of edges with that vertex as an end-point.
 
 The Grötzsch graph below is Hamiltonian
 
