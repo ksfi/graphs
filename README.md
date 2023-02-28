@@ -8,6 +8,11 @@ A simple graph $G$ consists of a non-empty finite set $V(G)$ of elements called 
 ### • Graph
 A general graph or just graph is a simple graph that can contain a loop if it has edges that are joins to themselves.
 
+### • How do we represent graphs ?
+To represent graphs, we will use matrix representations:
+- If $G$ is a graph with vertices labelled $\\{1,2,...,n\\}$, its adjacency matrix $A$ is the $n \times n$ matrix whose $ij$-th entry is the number of edges joining vertex $i$ and vertex $j$.
+- If in addition 
+
 ## Properties
 
 ### • Connectedness
