@@ -11,7 +11,9 @@ A general graph or just graph is a simple graph that can contain a loop if it ha
 ### • How do we represent graphs ?
 To represent graphs, we will use matrix representations:
 - If $G$ is a graph with vertices labelled $\\{1,2,...,n\\}$, its adjacency matrix $A$ is the $n \times n$ matrix whose $ij$-th entry is the number of edges joining vertex $i$ and vertex $j$.
-- If in addition 
+- If the edges are labelled $\\{1,2,...,m\\}$, its incidence matrix $M$ is the $n \times m$ matrix whose $ij$-th entry is $1$ if vertex $i$ is incident to edge $j$, and $0$ otherwise. That matrix is optionnal.
+
+<img width="677" alt="Capture d’écran 2023-02-28 à 13 53 46" src="https://user-images.githubusercontent.com/126407732/221862222-1a7d1216-7685-4966-91c9-4c65b2036e8d.png">
 
 ## Properties
 
